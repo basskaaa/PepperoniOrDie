@@ -1,0 +1,1040 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.23f1 (9636b062134a) revision 9844400'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 7991 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker29
+-projectPath
+D:/_Uni/Design/Assignment 2/PepperoniOrDie/Pepperoni Or Die Project2
+-logFile
+Logs/AssetImportWorker29.log
+-srvPort
+52098
+Successfully changed project path to: D:/_Uni/Design/Assignment 2/PepperoniOrDie/Pepperoni Or Die Project2
+D:/_Uni/Design/Assignment 2/PepperoniOrDie/Pepperoni Or Die Project2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 186.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.23f1 (9636b062134a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/_Uni/Design/Assignment 2/PepperoniOrDie/Pepperoni Or Die Project2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     3995 MB
+    Driver:   30.0.101.1960
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008179 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 197.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1089ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (793ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+				TypeCache.Initialize (191ms)
+					TypeCache.ScanAssembly (183ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (465ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (198ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006799 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 266.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.537 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7539ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (7150ms)
+			LoadAssemblies (4681ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (614ms)
+				TypeCache.Initialize (598ms)
+					TypeCache.ScanAssembly (589ms)
+				ResolveRequiredComponents (16ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (1654ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (15ms)
+				RefreshPlugins (267ms)
+				BeforeProcessingInitializeOnLoad (221ms)
+				ProcessInitializeOnLoadAttributes (939ms)
+				ProcessInitializeOnLoadMethodAttributes (195ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6007 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.9 MB). Loaded Objects now: 6462.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 19.547800 ms (FindLiveObjects: 1.008800 ms CreateObjectMapping: 0.962100 ms MarkObjects: 14.151500 ms  DeleteObjects: 3.421400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1213845.358277 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon
+  artifactKey: Guid(fe75cbfbde034104291466020cdefc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon using Guid(fe75cbfbde034104291466020cdefc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42fdfcefd026ea2ddd6c503762c2bdd') in 0.068561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Small_Brown.prefab
+  artifactKey: Guid(cd2c04b39e3823a47a81bb93247b2d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Small_Brown.prefab using Guid(cd2c04b39e3823a47a81bb93247b2d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086ed915837faa63dd3d0edeebf797ac') in 1.262763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Materials/Clay_Wall.mat
+  artifactKey: Guid(5b5864ee942879c4298b45498959048c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Materials/Clay_Wall.mat using Guid(5b5864ee942879c4298b45498959048c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fbe4ee6933e5b8dabefefcaf040229') in 0.199870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Staircase with Walls.prefab
+  artifactKey: Guid(ffbae557e4ef8ad42ac5985991a85b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Staircase with Walls.prefab using Guid(ffbae557e4ef8ad42ac5985991a85b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9790d5ceabba014e1227b2efea799c52') in 1.178947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles
+  artifactKey: Guid(0cde60a3546f51d41bdd7bf4a9dc8cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles using Guid(0cde60a3546f51d41bdd7bf4a9dc8cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee49ee84a9f12d1d829fa67c311e2090') in 0.039067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Materials/Floor_Muddy.mat
+  artifactKey: Guid(2bbbb3d84dce75d4581b151f12702225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Materials/Floor_Muddy.mat using Guid(2bbbb3d84dce75d4581b151f12702225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f3606cc893c2d0faaa717664e86124') in 0.764638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Wall_Var3.prefab
+  artifactKey: Guid(8cda7687928e5174ea2627e48a3c6d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Wall_Var3.prefab using Guid(8cda7687928e5174ea2627e48a3c6d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be09126d5f2405058c718cb096643c32') in 0.095903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Big_Wall_col.fbx
+  artifactKey: Guid(e4b570bae624ccb44bd100abdc1cc9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Big_Wall_col.fbx using Guid(e4b570bae624ccb44bd100abdc1cc9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15507dfc7445e683ff8802546962146') in 1.038107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Door_Basement_Left.prefab
+  artifactKey: Guid(8b456a21699676a4b94bd6288356bf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Door_Basement_Left.prefab using Guid(8b456a21699676a4b94bd6288356bf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618d366c693a46bf83950c4125fb35a3') in 0.601669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Wall_Var2.fbx
+  artifactKey: Guid(827885f9c6f8d734c894e9ee1ed7b6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Wall_Var2.fbx using Guid(827885f9c6f8d734c894e9ee1ed7b6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0bcdca340c9182a4e65160d0b28737') in 0.142927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Brown.prefab
+  artifactKey: Guid(20dc69066f16acc48b952aed5b788376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Brown.prefab using Guid(20dc69066f16acc48b952aed5b788376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b606bc9ff40c101c0711199132ef65e2') in 0.132392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Lamps/Candlestick_Wall.prefab
+  artifactKey: Guid(c559a22601843db4c927941c06a8b94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Lamps/Candlestick_Wall.prefab using Guid(c559a22601843db4c927941c06a8b94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90056f4bd5c7bef57401f0a552187c3') in 0.151245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Straight.prefab
+  artifactKey: Guid(97a4b078c0091b947acd8736a2f47884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Straight.prefab using Guid(97a4b078c0091b947acd8736a2f47884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e01bea911d3766ea897aa4e9dc5457') in 0.180456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Hall_Wall_Stairs_Left.prefab
+  artifactKey: Guid(4896ba4e24abe11438ab4b34a382af54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Hall_Wall_Stairs_Left.prefab using Guid(4896ba4e24abe11438ab4b34a382af54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab4de88091795bc953109b57ac8e7f6') in 0.201867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Hall_Center_Stairs.prefab
+  artifactKey: Guid(f4372e02dd0e54440977f29b6a4c317b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Hall_Center_Stairs.prefab using Guid(f4372e02dd0e54440977f29b6a4c317b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12dbaa020a143ff098fd7f1ff7d2abd') in 0.211209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001451 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_CornerCrossing.prefab
+  artifactKey: Guid(dd7a26e18353799418d77212cc3275fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_CornerCrossing.prefab using Guid(dd7a26e18353799418d77212cc3275fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18bfc682ef9b81b5d1e20ac10be06e15') in 0.201957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Hall_Corner.prefab
+  artifactKey: Guid(d468aca3a4ae71b46a917597c89e70ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Hall_Corner.prefab using Guid(d468aca3a4ae71b46a917597c89e70ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699e7e5c21e6726c7dd8337deb020624') in 0.265506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Basement_Var4.prefab
+  artifactKey: Guid(303434915ff72994f860f6202a4ef5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Basement_Var4.prefab using Guid(303434915ff72994f860f6202a4ef5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c6fa836b153a924eca85e9cf986a33') in 0.250080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Passage_Wood.prefab
+  artifactKey: Guid(398fe532ee92e2b478e8fd465e800786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Passage_Wood.prefab using Guid(398fe532ee92e2b478e8fd465e800786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d37af32a12275cbbb2b74cadcded2ed') in 0.152056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Wall_VarX.fbx
+  artifactKey: Guid(ab61c646b6bbc5c498e1e835ea9ac264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Wall_VarX.fbx using Guid(ab61c646b6bbc5c498e1e835ea9ac264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840a256cfc2e47568b7e082d9e82d099') in 0.139544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Big_Brown.prefab
+  artifactKey: Guid(2569a62b0421feb4fbb320665445719f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Big_Brown.prefab using Guid(2569a62b0421feb4fbb320665445719f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cd408c81300b2ce219415b9fd6cdba') in 0.133523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Straight_Half.prefab
+  artifactKey: Guid(a0708bab0e06c414381a6861ecf05a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Straight_Half.prefab using Guid(a0708bab0e06c414381a6861ecf05a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd34f00dec6d36be7c48d096adb6ed8') in 0.182221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Big_Passage.prefab
+  artifactKey: Guid(b78909d98814b3d42aa488a008c30001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Big_Passage.prefab using Guid(b78909d98814b3d42aa488a008c30001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39723e1591984b2ea174ac66ae9fbbf') in 0.203485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Basement_Wall_Var1.fbx
+  artifactKey: Guid(07d8ac3c883232446bcd9a3222fbff1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Basement_Wall_Var1.fbx using Guid(07d8ac3c883232446bcd9a3222fbff1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc29f5ad68bcd9b779bd5c3066b5fbf9') in 0.182210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/FloorTIle.fbx
+  artifactKey: Guid(20f2ea214cfe0d748b1b4b8ad965af69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/FloorTIle.fbx using Guid(20f2ea214cfe0d748b1b4b8ad965af69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c554f90a8c8700f8f1e3d6aebdb80be3') in 0.180058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Hall_Wall_Stairs_Right.prefab
+  artifactKey: Guid(ed465ab6eaa568d4fa325d2c4ebf6436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Hall_Wall_Stairs_Right.prefab using Guid(ed465ab6eaa568d4fa325d2c4ebf6436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898bf343cc61cf5d0bdc65e121246e6e') in 0.162813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Door_Wooden_Round_Right.prefab
+  artifactKey: Guid(15745f8b70e5d524183539fa272d90a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Door_Wooden_Round_Right.prefab using Guid(15745f8b70e5d524183539fa272d90a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a6eb117ad2e6f56e2ea1a7a1a74a75') in 0.165173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Wall_Stairs_Left_col.fbx
+  artifactKey: Guid(d0b89d21f3483fe47a1e1065c5bfae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Wall_Stairs_Left_col.fbx using Guid(d0b89d21f3483fe47a1e1065c5bfae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c8dd41acee172bf4d5dfa25f58f9fb') in 0.113632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Custom_Border_Flat.prefab
+  artifactKey: Guid(672e720ef69a65b44a71577cd7cc26ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Custom_Border_Flat.prefab using Guid(672e720ef69a65b44a71577cd7cc26ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc6fcab35d2988a0bbc17409c410df7') in 0.188004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/BrokenVector
+  artifactKey: Guid(8053ce47c1ab86e4381db1875a035cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector using Guid(8053ce47c1ab86e4381db1875a035cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1eaa5fa2411eaf7fd7590d0cb34bb5') in 0.033323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Brown.fbx
+  artifactKey: Guid(dc2941d78abd1554c898c60a773f4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Brown.fbx using Guid(dc2941d78abd1554c898c60a773f4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8413313fd7885c99d25e6e686df9e868') in 0.137368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Jail_Wall_broken.prefab
+  artifactKey: Guid(e28b34a491d1b964a8f7abc908c7db72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Jail_Wall_broken.prefab using Guid(e28b34a491d1b964a8f7abc908c7db72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59603ef9bc40a7ad5d4da75f6c397294') in 0.255843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Passage.prefab
+  artifactKey: Guid(b89b3b3efb3070240952a3335d270247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Passage.prefab using Guid(b89b3b3efb3070240952a3335d270247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caa7d1c96b4fc4a2369b9d7ccff2b61') in 0.184768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Jail_Wall_broken.fbx
+  artifactKey: Guid(1732262f7f123a84d9af88c10794f07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Jail_Wall_broken.fbx using Guid(1732262f7f123a84d9af88c10794f07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c10a75b598ccaab0e48c9b23d79c535') in 0.150850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs
+  artifactKey: Guid(739cb2b891d777d4381761a57c0e04f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs using Guid(739cb2b891d777d4381761a57c0e04f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11d73753a04e5574d05e7c72607dceb') in 0.052535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Basement_Var1.prefab
+  artifactKey: Guid(7b9bd4ff48795cf42b9f4a6c3b8a49c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Basement_Var1.prefab using Guid(7b9bd4ff48795cf42b9f4a6c3b8a49c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4711fdc1633d1b4faa6902d3853c084e') in 0.267229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Wall_Stairs_Right_col.fbx
+  artifactKey: Guid(bfc125062dd4b9f45a777c24abbdb02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Wall_Stairs_Right_col.fbx using Guid(bfc125062dd4b9f45a777c24abbdb02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04f0424b7a8412fd09fe59ea6a9355d') in 0.174993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Materials/Stone_Floor.mat
+  artifactKey: Guid(88056ad3707bb6346ad6e69bf350d54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Materials/Stone_Floor.mat using Guid(88056ad3707bb6346ad6e69bf350d54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab21a0fce1cb385c3da7b17accf6b13') in 0.135627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Custom_Corner_Inverted.prefab
+  artifactKey: Guid(867c307861a2f9244bc4a3434c515f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Custom_Corner_Inverted.prefab using Guid(867c307861a2f9244bc4a3434c515f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7682e9bf9ff588aa798080e854fc19a6') in 0.206540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Wall_Var1.fbx
+  artifactKey: Guid(4fe4fc7683c898747998c195978256cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Wall_Var1.fbx using Guid(4fe4fc7683c898747998c195978256cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e41492cd5067ba4fda559a49371f63b') in 0.141512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Wall_Var1.prefab
+  artifactKey: Guid(5e10be2f5a748844dbd0b2b7e6fafd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Wall_Var1.prefab using Guid(5e10be2f5a748844dbd0b2b7e6fafd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc97728b8b11d9bd6a7f7c38fb0f20e') in 0.110911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Basement_Wall_Var2.prefab
+  artifactKey: Guid(d157978297aa03d40bfe76f9decb9828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Basement_Wall_Var2.prefab using Guid(d157978297aa03d40bfe76f9decb9828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7deb0df47d46d723fb310691c40e3bec') in 0.195252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Door_Iron_Left.prefab
+  artifactKey: Guid(03020aab9adeeb54f9194380cf49b4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Door_Iron_Left.prefab using Guid(03020aab9adeeb54f9194380cf49b4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17772449929cbe3bd0fd07af78fda8a') in 0.191387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Door_Wooden_Round_Left.prefab
+  artifactKey: Guid(ba93fc15ee14dbf45b36696cb946115f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Door_Wooden_Round_Left.prefab using Guid(ba93fc15ee14dbf45b36696cb946115f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2701d3d9c14743f78122d94cb23965d5') in 0.184159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06ff7518c93fa7a16f3a53a85d38f58') in 0.044708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Custom_Border_Arched.prefab
+  artifactKey: Guid(2f2ff5c103656c94ca51d5bbd62d1ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Custom_Border_Arched.prefab using Guid(2f2ff5c103656c94ca51d5bbd62d1ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17135cc2f1750f477f393bb736d9d05b') in 0.209045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Big.prefab
+  artifactKey: Guid(6cb084713de342d4d94969b0f4ad068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Big.prefab using Guid(6cb084713de342d4d94969b0f4ad068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60207e1b73d6ad0d53b839310794af48') in 0.246226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Custom_Center.prefab
+  artifactKey: Guid(5c582aa33048aaa428a9e969723d47dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Dungeon_Custom_Center.prefab using Guid(5c582aa33048aaa428a9e969723d47dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79ab06ff76c445795be62754a2b8d7a') in 0.193644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Jail_Wall.fbx
+  artifactKey: Guid(dc9f3484ce4f67f419753556f57cae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Jail_Wall.fbx using Guid(dc9f3484ce4f67f419753556f57cae0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299ee4a6722a54cee06f57fff4937f57') in 0.196774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Basement_Wall_Var1.prefab
+  artifactKey: Guid(e52fa0ab130d63b42bcdd15456a87141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Basement_Wall_Var1.prefab using Guid(e52fa0ab130d63b42bcdd15456a87141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee89e952a75d848e8749b8118d0df661') in 0.120084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Jail_Wall.prefab
+  artifactKey: Guid(cc9f980ee3a12ab49af49ee894ebd89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Jail_Wall.prefab using Guid(cc9f980ee3a12ab49af49ee894ebd89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5ad58307a93f5396991508b3bcc498') in 0.095170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Shelf_Wall.fbx
+  artifactKey: Guid(2635c774666268e47b7d059c5f4ebbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Shelf_Wall.fbx using Guid(2635c774666268e47b7d059c5f4ebbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac231264bc789bdb36392f4b9f3ac1eb') in 0.089772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Basement_Passage_Mix.prefab
+  artifactKey: Guid(239723035b399824caf9644a73d51459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Basement_Passage_Mix.prefab using Guid(239723035b399824caf9644a73d51459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6186e1872282439ed69609ba62543fc8') in 0.145820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Materials/Stone_Wall.mat
+  artifactKey: Guid(eaf560748e2d5d0449a30251bc3056be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Materials/Stone_Wall.mat using Guid(eaf560748e2d5d0449a30251bc3056be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c007566e947588be04cd306e2d492be2') in 0.079473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Lamps/Torch_Wall.fbx
+  artifactKey: Guid(fe2e85b4d6271d84797599c39656320c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Lamps/Torch_Wall.fbx using Guid(fe2e85b4d6271d84797599c39656320c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e6ee4963edfa58722d633a2ec9fa42') in 0.083808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.060514 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Hallway_toStaircase_Bottom.prefab
+  artifactKey: Guid(d8442ff07dd71bb48be63de4bffeeb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Hallway_toStaircase_Bottom.prefab using Guid(d8442ff07dd71bb48be63de4bffeeb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2310059b9529f77430e02741de21018b') in 0.124199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Holefix_Single.prefab
+  artifactKey: Guid(192d681e9fa59ee41a375fd1339fa347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Holefix_Single.prefab using Guid(192d681e9fa59ee41a375fd1339fa347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285df6398b98624a09c019c3310ea1cb') in 0.118108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Stairs_Platform.prefab
+  artifactKey: Guid(9d3c6113164fd3b488040a35893b058c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Stairs_Platform.prefab using Guid(9d3c6113164fd3b488040a35893b058c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56070cc6925857b103f47b0633786d1f') in 0.132402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Steps_Small.prefab
+  artifactKey: Guid(bca29393fb49e1e4d862950ab1749426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Steps_Small.prefab using Guid(bca29393fb49e1e4d862950ab1749426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1331530c89329a52233655638236172') in 0.118777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Stairs_High.prefab
+  artifactKey: Guid(1e5e6584f4b365c49a0edc23ccafc87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Stairs_High.prefab using Guid(1e5e6584f4b365c49a0edc23ccafc87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe0d32c61ccc48d84a71c29fc663159') in 0.117749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/HoleFix_Half.prefab
+  artifactKey: Guid(4cd248ecb5dd495468c0a783da4a4ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/HoleFix_Half.prefab using Guid(4cd248ecb5dd495468c0a783da4a4ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efef26b9733d3c1abe4abdf8e87fa5e9') in 0.118677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Jail_Door_Right.prefab
+  artifactKey: Guid(8b2ac275d28767a4bbd00fec5cb82b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Jail_Door_Right.prefab using Guid(8b2ac275d28767a4bbd00fec5cb82b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab660980b3c888f257fe04371554919') in 0.134367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Stairs_Low.prefab
+  artifactKey: Guid(01758e662295c9347b35b7bdee71f5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Stairs_Low.prefab using Guid(01758e662295c9347b35b7bdee71f5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15cdb191ee7bb436e19fc98ddd7eb1c') in 0.112176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.786389 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Custom_Center.fbx
+  artifactKey: Guid(b0e19395b15281546a4cb33b391f3349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Custom_Center.fbx using Guid(b0e19395b15281546a4cb33b391f3349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f135002cf69542547789cc87a7375a') in 0.099958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Hall_Center_Stairs.fbx
+  artifactKey: Guid(582457359612b134a8060cfe3d02fbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Hall_Center_Stairs.fbx using Guid(582457359612b134a8060cfe3d02fbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55d39b08380c52866804cd8cd60c867') in 0.118412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Fireplace.prefab
+  artifactKey: Guid(55320ad6284175349b1008aaf7238c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Fireplace.prefab using Guid(55320ad6284175349b1008aaf7238c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a7dbef2b5c1e2dde8d0c5069dd168d') in 0.072843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Center_col.fbx
+  artifactKey: Guid(55206c072b8e1db48af863cca6d21d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Center_col.fbx using Guid(55206c072b8e1db48af863cca6d21d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246162111c20f651b6a9e2466875551d') in 0.106343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.263168 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Barrel_Open.prefab
+  artifactKey: Guid(591bed4d8c69b824c81e7261d794d9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Barrel_Open.prefab using Guid(591bed4d8c69b824c81e7261d794d9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be52323a8e4769893c636d1ac4bdd98') in 0.079322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Bench.prefab
+  artifactKey: Guid(ad2e0cfa2e8733c46ae66652ae0714f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Bench.prefab using Guid(ad2e0cfa2e8733c46ae66652ae0714f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31bb7e4dfcabdb81a1df2d360d400ea') in 0.087209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_DeepRed.prefab
+  artifactKey: Guid(f70ad1fd5f3819b42aaeca6741dfa8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_DeepRed.prefab using Guid(f70ad1fd5f3819b42aaeca6741dfa8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f666c6c14bfdb48428cf254c0b6c59e') in 0.110718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Big_DeepRed.prefab
+  artifactKey: Guid(6e5642efdd933964d9719bb799658cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Big_DeepRed.prefab using Guid(6e5642efdd933964d9719bb799658cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e574e875f26a5074f34532c1f0bff3fa') in 0.080127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Beaker_Full_Var2.prefab
+  artifactKey: Guid(5d78c38b5abad5c4f8b593c72ff85f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Beaker_Full_Var2.prefab using Guid(5d78c38b5abad5c4f8b593c72ff85f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2549851331fea532c547292177b036ac') in 1.827429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Bone.prefab
+  artifactKey: Guid(5c58fb2d7ad52444f85fc37bcad1f0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Bone.prefab using Guid(5c58fb2d7ad52444f85fc37bcad1f0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0672eb9b813338fa8b345b9b0e5f687') in 0.150546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Beaker_Small.prefab
+  artifactKey: Guid(f86dc25794fda774aa908152821e0248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Beaker_Small.prefab using Guid(f86dc25794fda774aa908152821e0248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5ed750ddabf9acc4af438c210eef39') in 0.146105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.424078 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Banner.prefab
+  artifactKey: Guid(ad4bcbbca7d5fde4cbaa62e8f9296dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Banner.prefab using Guid(ad4bcbbca7d5fde4cbaa62e8f9296dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6bd8ca155fc4e3c491d37557b7d3e7') in 0.114708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.247243 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Green.prefab
+  artifactKey: Guid(6c83909939429c1478d2869f00f95462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Green.prefab using Guid(6c83909939429c1478d2869f00f95462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5d83769deaf95e638b90d7d05f50d1') in 0.102115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Small_DeepRed.prefab
+  artifactKey: Guid(c72dbddba36dfd14c914d8986eb9abd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Small_DeepRed.prefab using Guid(c72dbddba36dfd14c914d8986eb9abd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc250c1bcb5fd39304ab445e3469a77') in 0.093677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Small_Green.prefab
+  artifactKey: Guid(cd543225cb67e3649a9ff72bb9a5dbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Small_Green.prefab using Guid(cd543225cb67e3649a9ff72bb9a5dbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2340367b6083a12369b9ecbd89fde7f7') in 0.091471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.215460 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Small_Red.prefab
+  artifactKey: Guid(d5ab9ab84b099424e99b433567330718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Book_Small_Red.prefab using Guid(d5ab9ab84b099424e99b433567330718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5af7069224adb35957b128fdd435a9b') in 0.095517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab
+  artifactKey: Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab using Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a467975b33241637cd5f27e5851c076') in 0.217094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Bowl_Full.prefab
+  artifactKey: Guid(9635f07bd7be9e44b89ea08e54684f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Bowl_Full.prefab using Guid(9635f07bd7be9e44b89ea08e54684f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80901671abd696cb434cf4072667dc6c') in 0.115839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Bread.prefab
+  artifactKey: Guid(4b48cd2d69a24d841b47ccfba166e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Bread.prefab using Guid(4b48cd2d69a24d841b47ccfba166e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae837af2b7827fd4519a2a3ab53cbe0') in 0.165784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Lamps/Candlestick_Small.prefab
+  artifactKey: Guid(bf7a7fc00791eb945a5412768a68fffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Lamps/Candlestick_Small.prefab using Guid(bf7a7fc00791eb945a5412768a68fffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a831c96930e9b05cb548e2dffcd568') in 0.111010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Carrot.prefab
+  artifactKey: Guid(50122eae508ed204a84b2c81f0b4282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Carrot.prefab using Guid(50122eae508ed204a84b2c81f0b4282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17648bdf025bfa7b2bcf0e15a0074a77') in 0.098902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Cauldron_Small_Stand.prefab
+  artifactKey: Guid(0d858551c205152499f976761ecef4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Cauldron_Small_Stand.prefab using Guid(0d858551c205152499f976761ecef4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43c01628b8dba70869d6ad1a0c88c75') in 0.108957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Cauldron_Small.prefab
+  artifactKey: Guid(429d9f80ea6c7c1499a60be9a65c2613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Cauldron_Small.prefab using Guid(429d9f80ea6c7c1499a60be9a65c2613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f114121ffcd9750b2d653fa6baaccba9') in 0.120560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Chair.prefab
+  artifactKey: Guid(dc02f77b0506f764c9d22c61c681c4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Chair.prefab using Guid(dc02f77b0506f764c9d22c61c681c4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84e685d09e74c2a29c04992f19d8b1b') in 0.128228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/CoatHook.prefab
+  artifactKey: Guid(842735df7d8eccf4c8d59febf0d5988f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/CoatHook.prefab using Guid(842735df7d8eccf4c8d59febf0d5988f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047ccf27da0cbe9c3d3e0cdb0dad1e44') in 0.180541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Chest.prefab
+  artifactKey: Guid(944bff624466e4242a3377fba75ddaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Chest.prefab using Guid(944bff624466e4242a3377fba75ddaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309b01118cdfafbbe7b029666f9a25bc') in 0.142232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Carpet_Red.prefab
+  artifactKey: Guid(1e711044cbc639d44aa004669771969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Carpet_Red.prefab using Guid(1e711044cbc639d44aa004669771969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfd142dd943d1d27729e3a7c044efc3') in 0.094048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Bread_Half.prefab
+  artifactKey: Guid(7830ddcb15808fb49b5b2dd355812f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Bread_Half.prefab using Guid(7830ddcb15808fb49b5b2dd355812f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2132051f1dd5a89debd5073232df8e07') in 0.091217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.474037 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/CrystalBall.prefab
+  artifactKey: Guid(7234c83608121694ebb0c6175d854ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/CrystalBall.prefab using Guid(7234c83608121694ebb0c6175d854ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3454282b95b18e1d7bf84fc7eba4d0') in 0.097501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Desk.prefab
+  artifactKey: Guid(06b9d15b7d33e854cb23fe58a33238aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Desk.prefab using Guid(06b9d15b7d33e854cb23fe58a33238aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0af4e9ca7a93d82fe8879653ffc23f5') in 0.081426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.546443 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Drinkinghorn.prefab
+  artifactKey: Guid(fa010434c7d21fe49900567be9f32b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Drinkinghorn.prefab using Guid(fa010434c7d21fe49900567be9f32b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f72d51a2bbccc4845f4f3a830234c7') in 0.072363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.619111 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab
+  artifactKey: Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab using Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fce15e1d2d5a9f76c7eda1acf022622') in 0.247024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.915209 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Firewood.prefab
+  artifactKey: Guid(3749b76f43b6f214f8b7c9f88c6ba504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Firewood.prefab using Guid(3749b76f43b6f214f8b7c9f88c6ba504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8249044477863bf31949c62b66908a55') in 0.079660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Flask.prefab
+  artifactKey: Guid(36e40447bab70064ea6c6858147b7c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Flask.prefab using Guid(36e40447bab70064ea6c6858147b7c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fde572770dbeeaed659ab59ea9f9871') in 0.147743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Goblet.prefab
+  artifactKey: Guid(067b8662dc709ba4da3ef3fd87604af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Goblet.prefab using Guid(067b8662dc709ba4da3ef3fd87604af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e009e39a2005406cb9e8f53936ab29') in 0.091364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Hallway_Curve_Short.prefab
+  artifactKey: Guid(ea89d7821ddb211478ce5ff6f3ea064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Hallway_Curve_Short.prefab using Guid(ea89d7821ddb211478ce5ff6f3ea064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249bc6879927478e901b314f01ddf59c') in 0.118525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Hallway_TCrossing.prefab
+  artifactKey: Guid(345c8a49d7186274cbb629bef82b473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Hallway_TCrossing.prefab using Guid(345c8a49d7186274cbb629bef82b473c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e8fe9822009ae68e24af2db7e6f7ba') in 0.132905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Hallway_Crossing.prefab
+  artifactKey: Guid(d8a87367ce3dea34381d129ffade9174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Hallway_Crossing.prefab using Guid(d8a87367ce3dea34381d129ffade9174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2033d54db2422f82a88484dd188c179d') in 0.117391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Hallway_Curve_Long.prefab
+  artifactKey: Guid(7d0884ce5d5b49d499cfa0d0d9049a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Tiles/Hallway_Curve_Long.prefab using Guid(7d0884ce5d5b49d499cfa0d0d9049a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bfc7c422024d288ba6914b14a5945c') in 0.201476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398929 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Inkwell.prefab
+  artifactKey: Guid(b402bc0133532434b873cefde0db7814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Inkwell.prefab using Guid(b402bc0133532434b873cefde0db7814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b6756b1a3b6b5d3b46d407ca19ed25') in 0.079410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.252023 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Ivy_Branch.prefab
+  artifactKey: Guid(c5bbeb82695369241958e411b793cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Ivy_Branch.prefab using Guid(c5bbeb82695369241958e411b793cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6d2fd6443678247926afc257b671fe') in 0.106648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.338896 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Jar_Big.prefab
+  artifactKey: Guid(741afadbc8ee8d6498f2ac5ed155cefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Jar_Big.prefab using Guid(741afadbc8ee8d6498f2ac5ed155cefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66a576d051045dbfe285b2b41bc7491') in 0.107155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Jug.prefab
+  artifactKey: Guid(f3fb1271ede9bf8469d8b99637b77b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Jug.prefab using Guid(f3fb1271ede9bf8469d8b99637b77b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c202968249f35676ea2ef22eb510c46') in 0.208584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Key_Golden.prefab
+  artifactKey: Guid(6b07ab31d47036645833e234477aa56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Key_Golden.prefab using Guid(6b07ab31d47036645833e234477aa56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47c8b87f1c686fc0c3f86205a7f26f4') in 0.077881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077762 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Key_Rusty.prefab
+  artifactKey: Guid(1a4ce7ed7389af14cbc47a4b3ba8a164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Key_Rusty.prefab using Guid(1a4ce7ed7389af14cbc47a4b3ba8a164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ef89032b5efa5f9ebe21420954bb6d') in 0.075857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Knife.prefab
+  artifactKey: Guid(09853b7f062375a438e1fcc026b8e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Knife.prefab using Guid(09853b7f062375a438e1fcc026b8e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fedd7dd998ee55acec50f5d6943c08') in 0.126643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.165757 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Lock.prefab
+  artifactKey: Guid(f101a2b4504c3d04a95511ba8b3543e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Lock.prefab using Guid(f101a2b4504c3d04a95511ba8b3543e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7aeeb20299b4b805fc30b41acd1ba2') in 0.083702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174435 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Mug.prefab
+  artifactKey: Guid(c8f06426297d70b49a679bc058775930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Mug.prefab using Guid(c8f06426297d70b49a679bc058775930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70459591af05b2ad96253475ec218dec') in 0.081448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Oven.prefab
+  artifactKey: Guid(c5ef04fb4ce25e046956b9dc2a11ead8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Oven.prefab using Guid(c5ef04fb4ce25e046956b9dc2a11ead8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cc2e91130bdb7c5349cd6ac58995e6') in 0.095352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Plate.prefab
+  artifactKey: Guid(3e776a5d11f6ff7479236101fa9f7d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Plate.prefab using Guid(3e776a5d11f6ff7479236101fa9f7d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adafff3cb5c5b6a129e3be7791e07046') in 0.111802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Plate_Small.prefab
+  artifactKey: Guid(c4546ca0c38ce86408e330622320960c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Plate_Small.prefab using Guid(c4546ca0c38ce86408e330622320960c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc7064d5ce47ac2741fe65f463e7308') in 0.118383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Demo Scenes/Player.prefab
+  artifactKey: Guid(9dd8a3227dc0aa84099496d08718ad7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Demo Scenes/Player.prefab using Guid(9dd8a3227dc0aa84099496d08718ad7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6903fb5c6f8a4fdd51deb4e7713a92d') in 0.086133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Plant_Root.prefab
+  artifactKey: Guid(dd46835ba98bdda46807dfc0f3f9c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Plant_Root.prefab using Guid(dd46835ba98bdda46807dfc0f3f9c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0906030a79b1caebcb6d210da93392') in 0.103224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerFollowCamera.prefab
+  artifactKey: Guid(a1a802ecaf6775746bb2a929fb554ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerFollowCamera.prefab using Guid(a1a802ecaf6775746bb2a929fb554ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da5ce153f773ac646c07b54e51ab3a2') in 0.037437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab
+  artifactKey: Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab using Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a063b99d882669180e9e12f637be29') in 0.104897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerArmature.prefab
+  artifactKey: Guid(64dce48905ffd9b4293e595fa6941544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerArmature.prefab using Guid(64dce48905ffd9b4293e595fa6941544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a97390213530c557f61182419071fa') in 1.533345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Potato.prefab
+  artifactKey: Guid(fbd964f5dc556d64daede200dc2e89d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Potato.prefab using Guid(fbd964f5dc556d64daede200dc2e89d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7173a6a94a18bf5e6ebcef7001e72e5') in 0.593059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentCapsule_Unpack.prefab
+  artifactKey: Guid(212907312655a4443a025a304442c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentCapsule_Unpack.prefab using Guid(212907312655a4443a025a304442c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad5adba0f56c8b0386f2517ea3519c0') in 0.225794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.479605 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Potion_Blue.prefab
+  artifactKey: Guid(dfa07040f3b61f648bc8ad1291f6cbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Potion_Blue.prefab using Guid(dfa07040f3b61f648bc8ad1291f6cbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a25980c2ca285bcedb13576c4cf433f') in 0.079967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Potion_Red.prefab
+  artifactKey: Guid(a84a636a35a83fe408bd4b3d8c2b8058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Potion_Red.prefab using Guid(a84a636a35a83fe408bd4b3d8c2b8058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b50f0d4d88cc9349344a40c908f8e8') in 0.099048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.791418 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Quill.prefab
+  artifactKey: Guid(01b18908cb794a34a8fc133e9f4ec355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Quill.prefab using Guid(01b18908cb794a34a8fc133e9f4ec355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5018db9cb7554099da3c2b442337c984') in 0.090742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Scales.prefab
+  artifactKey: Guid(e699edbdf5545a647888825a14921b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Scales.prefab using Guid(e699edbdf5545a647888825a14921b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e81efc213a6f026f781a9cfae1706d') in 0.104987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.391986 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Scroll_Big.prefab
+  artifactKey: Guid(16e7a0741a070bb47bebfd085ef8cddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Scroll_Big.prefab using Guid(16e7a0741a070bb47bebfd085ef8cddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789df8ebc03176528a0e3cb20f6b86f8') in 0.078326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Scroll_Open.prefab
+  artifactKey: Guid(571f5dec7e36f1d44bd714b42ba5c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Scroll_Open.prefab using Guid(571f5dec7e36f1d44bd714b42ba5c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bb8ecbaa654ba1ac13fa41448ff7ea') in 0.082710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.250349 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Scroll_Small.prefab
+  artifactKey: Guid(113a04b44464ee141bd913e9283f2f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Scroll_Small.prefab using Guid(113a04b44464ee141bd913e9283f2f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfec31a86a8465b9346811778cb5175') in 0.071823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Shelf.prefab
+  artifactKey: Guid(cb9bc6b96d830b64293c9fdff99b1743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Shelf.prefab using Guid(cb9bc6b96d830b64293c9fdff99b1743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72f943f7964c687b9b8760818959825') in 0.108284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.346699 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Shield.prefab
+  artifactKey: Guid(628b35708d1b48849ae6ee2b707ee8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Shield.prefab using Guid(628b35708d1b48849ae6ee2b707ee8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66d40abdee231852015ca75372f3e4d') in 0.109437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Spoon.prefab
+  artifactKey: Guid(e1fcee434c875124d9a75e52b62ad290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Spoon.prefab using Guid(e1fcee434c875124d9a75e52b62ad290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bcc6e382046530046067c84f88042b') in 0.091986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.436637 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab
+  artifactKey: Guid(466621a4836aa504c87c15d88722d465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab using Guid(466621a4836aa504c87c15d88722d465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7553e42173d6b1ca26513f13c9836893') in 0.105069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.632290 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Stool_round.prefab
+  artifactKey: Guid(a8acfdda1f8f6064bbf4e2fe34b27e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Stool_round.prefab using Guid(a8acfdda1f8f6064bbf4e2fe34b27e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501143853e88efb8c571da3a4775e3ee') in 0.090269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062570 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab
+  artifactKey: Guid(79e624e6a8770a946afb866fd94b394b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab using Guid(79e624e6a8770a946afb866fd94b394b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8756407a8e34d4c1256e25dddf47e10') in 0.086814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/SwitchSecret.prefab
+  artifactKey: Guid(e574f658d3fabcc43bdbe89b4425b18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/SwitchSecret.prefab using Guid(e574f658d3fabcc43bdbe89b4425b18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48196bc69370f8c1de8b755126954d25') in 0.112050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.146960 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Sword.prefab
+  artifactKey: Guid(3c69fa93618176a43962f23c5526778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Sword.prefab using Guid(3c69fa93618176a43962f23c5526778b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c85bf9e829e98dd584a0dd86ee64b6') in 0.088658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Table_Small.prefab
+  artifactKey: Guid(ce285a7430946e24ca0a9218777a7805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/Table_Small.prefab using Guid(ce285a7430946e24ca0a9218777a7805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3708f3267941076e0aa845d636d541e1') in 0.083558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Lamps/Torch.prefab
+  artifactKey: Guid(98ba86548ddcd664e9df1d008a5c8f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Lamps/Torch.prefab using Guid(98ba86548ddcd664e9df1d008a5c8f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d1d8f25ce8d2a83fd809054dae4eb8') in 0.103059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.408856 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Tree_Branch.prefab
+  artifactKey: Guid(bbd85e700f0f23546bfd0547bf83ad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Tree_Branch.prefab using Guid(bbd85e700f0f23546bfd0547bf83ad02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d7155f19ddfc1cc2d1c0e7ff183edc') in 0.104915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks.prefab
+  artifactKey: Guid(2f7f3dde7ae722a4aafffe20691ad702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks.prefab using Guid(2f7f3dde7ae722a4aafffe20691ad702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343582e90e07ef198dba3665e2d9598c') in 0.039965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040327 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab
+  artifactKey: Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab using Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5e28bb11d1dbf9c81acbaf3e0adc7b') in 0.039392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032967 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Joystick.prefab
+  artifactKey: Guid(6eb08bfc0fd869c47b796c42ada099da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Joystick.prefab using Guid(6eb08bfc0fd869c47b796c42ada099da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea87d12b4b3964882356f814323c286') in 0.065593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.956506 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/WeaponRack_Big.prefab
+  artifactKey: Guid(797162f1e2611d14bac618083727de40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Furniture/WeaponRack_Big.prefab using Guid(797162f1e2611d14bac618083727de40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755930fbcc83c13d80a5f4bdfd286084') in 0.097913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Wineglass.prefab
+  artifactKey: Guid(d8e4874eaa27b1749b17632d68f5fd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Wineglass.prefab using Guid(d8e4874eaa27b1749b17632d68f5fd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af91cb0eba6f5d33e8147521318d489') in 0.082941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.683247 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Amphora.prefab
+  artifactKey: Guid(afc3fedc78427f04097996d062288c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Amphora.prefab using Guid(afc3fedc78427f04097996d062288c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7fd4ee3cfa19bb6eddd7e141f558cf') in 0.090401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Bag.prefab
+  artifactKey: Guid(6d74876d99d459743af39429f3ef69b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Prefabs/Clutter/Bag.prefab using Guid(6d74876d99d459743af39429f3ef69b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f2b464b61df24021c277d047797a94') in 0.079370 seconds 
