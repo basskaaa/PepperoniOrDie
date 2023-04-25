@@ -1,20 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class scp_PickUpItem : MonoBehaviour
 {
-    [SerializeField] GameObject item;
-    [SerializeField] bool itemInHand;
-    [SerializeField] Transform itemTf;
+    [SerializeField] TMP_Text storageUI;
 
-    private void Update()
+    private bool ableToPickUp;
+
+    private void Start()
     {
-        if (itemInHand)
+        storageUI.enabled = false;
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == "Item Storage")
         {
-            item.GetComponent<MeshCollider>().enabled = false;
-            item.GetComponent<MeshRenderer>().enabled = true;
-            item.GetComponent<Rigidbody>().useGravity = false;
+            storageUI.enabled = true;
+            ableToPickUp = true;
         }
     }
+    private void OnTriggerExit(Collider collision)
+    {
+        if (collision.gameObject.tag == "Item Storage")
+        {
+            storageUI.enabled = false;
+            ableToPickUp = false;
+        }
+    }
+
 }
