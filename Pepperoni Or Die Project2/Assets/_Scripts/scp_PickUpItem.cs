@@ -6,8 +6,10 @@ using UnityEngine;
 public class scp_PickUpItem : MonoBehaviour
 {
     [SerializeField] TMP_Text storageUI;
+    [SerializeField] GameObject baseObj;
 
     private bool ableToPickUp;
+    private bool baseInHand = false;
 
     private void Start()
     {
@@ -31,4 +33,17 @@ public class scp_PickUpItem : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E)) 
+        {
+            baseInHand = true;
+            baseObj.SetActive(true);
+        }
+
+        if (baseInHand && Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            
+        }
+    }
 }
